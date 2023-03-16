@@ -1,4 +1,4 @@
-launch_cmd = "cd /cluster/home/pfeene01/CCGaussian; nvidia-smi; pipenv run python ccgaussian/train_ndcc.py"
+launch_cmd = "cd /cluster/home/rxu04/CCGaussian; nvidia-smi; pipenv run python ccgaussian/train_ndcc.py"
 
 [sbatch]
 -p = "gpu"
